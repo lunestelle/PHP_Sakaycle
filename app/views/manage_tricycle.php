@@ -93,12 +93,12 @@
                   <div class="col-8 d-flex justify-content-between">
                     <div>
                       <label for="tricycle_operator_permit" class="form-label">Tricycle Operator Permit</label>
-                      <input type="file" class="form-control form-documents" id="tricycle_operator_permit" name="tricycle_operator_permit" required>
+                      <input type="file" class="form-control" id="tricycle_operator_permit" name="tricycle_operator_permit" required>
                     </div>
 
                     <div>
                       <label for="tricycle_images" class="form-label">Tricycle Images (Front, Back, & Sides)</label>
-                      <input type="file" class="form-control form-documents" id="tricycle_images" name="tricycle_images" required multiple>
+                      <input type="file" class="form-control" id="tricycle_images" name="tricycle_images" required multiple>
                     </div>
                   </div>
                 </div>
@@ -107,12 +107,12 @@
                   <div class="col-8 d-flex justify-content-between">
                     <div>
                       <label for="certificate_of_registration" class="form-label">Certificate of Registration (CR)</label>
-                      <input type="file" class="form-control form-documents" id="certificate_of_registration" name="certificate_of_registration" required>
+                      <input type="file" class="form-control" id="certificate_of_registration" name="certificate_of_registration" required>
                     </div> 
 
                     <div>
                       <label for="official_receipt" class="form-label">Official Receipt (OR)</label>
-                      <input type="file" class="form-control form-documents" id="official_receipt" name="official_receipt" required>
+                      <input type="file" class="form-control" id="official_receipt" name="official_receipt" required>
                     </div>
                   </div>
                 </div>

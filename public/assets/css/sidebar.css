@@ -370,6 +370,28 @@ table > :not(caption) > * > * > :last-child {
   background-color: rgba(255, 255, 255, 1);
 }
 
+select.form-control:focus {
+  background-color: #ffdbcead;
+  box-shadow: none;
+  border-color: #ff723fcc;
+  outline: none;
+}
+
+select.form-control:hover {
+  background-color: #ffdbcead;
+  box-shadow: none;
+  border-color: #ff723fcc;
+  outline: none;
+}
+
+input[type="date"]:focus,
+input[type="text"]:focus,
+input[type="date"]:hover,
+input[type="text"]:hover {
+  background-color: #ffdbcead;
+  box-shadow: none;
+  border-color: #ff936b9c;
+}
 
 input[type=file] {
   font-size: 13px;
@@ -405,7 +427,8 @@ input[type=file]::file-selector-button {
   transition: background .2s ease-in-out;
 }
 
-input[type=file]::file-selector-button:hover {
+input[type=file]::file-selector-button:hover,
+input[type=file]::file-selector-button:focus {
   background-color: #ffffff;
   color: #FF4200;
 }
